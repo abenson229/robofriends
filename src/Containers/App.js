@@ -35,10 +35,10 @@ class App extends Component {  // need class vs function to manage state
         if (!robots.length) {
             return <h1 className="tc">LOADING...</h1>
         }
-        
+
         return (
             <div className="tc">
-                <h1 className="f1">RoboFriends</h1>
+                <h1 className="f1">Kitteh Friends</h1>
                 <SearchBox searchChange={this.onSearchChange}/>
                 <Scroll>
                     <CardList robots={filteredRobots}/>
